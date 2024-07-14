@@ -7,7 +7,7 @@ import colorsys
 # Function to get the colors from the image
 def get_image_colors(image_path, num_colors=5):
     # Load and convert image to RGB
-    image = Image.open(image_path).convert('RGB')
+    image = Image.open(content://media/external/downloads/1000166697 ).convert('RGB')
     image.thumbnail((200, 200))  # Resize for faster processing
 
     # Convert image to numpy array
