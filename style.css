@@ -1,0 +1,365 @@
+
+body {
+    font-family: Roboto condensed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('bg2.png');
+    background-size: contain;
+}
+
+.slogan h1{
+  color: limegreen;
+  font-family: Josefin Sans;
+  margin-bottom: 2px;
+  font-size: 2.5em;
+}
+
+.slogan h4 {
+  font-family: Dancing script;
+  font-size: 1.2em;
+  margin-top: 0px;
+  color: black;
+}
+
+header {
+    background-color: #FB8DA0  ; /*background for the navigation bar */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('bg1.jpg');/* background for the main section */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: whitesmoke; /* background for the intro section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card-like effect */
+}
+
+.intro h1 {
+    font-size: 1.8em;
+    font-family: Expletus sans;
+    
+    color: hotpink; /* color for the heading */
+}
+
+.intro p {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-bottom: 30px;
+    color: #666; /* Medium grey color for the paragraph */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: darkturquoise; /* Blue background for the button */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.features, .how-it-works, .testimonials {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: whitesmoke; /* White background for sections */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
+}
+
+.features h2, .how-it-works h2, .testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: hotpink; /* Dark grey color for section headings */
+}
+
+.feature-item {
+    margin-bottom: 20px;
+    max-width: 70%;
+    margin: 40px auto;
+    background-color: whitesmoke; /* White background for sections */
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
+
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: yellowgreen; /* Blue color for feature headings */
+}
+
+.how-it-works ol {
+    text-align: left;
+}
+
+.how-it-works li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #666; /* Medium grey color for list items */
+}
+
+.testimonials blockquote {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #666; /* Medium grey color for testimonials */
+}
+
+.testimonials footer {
+    text-align: right;
+    color: #333; /* Dark grey color for testimonial footer */
+}
+
+footer {
+    background-color: gainsboro; /* background for the footer */ 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+   
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0; 
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+   margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.upload-section {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: whitesmoke; /* White background for the upload section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card-like effect */
+    text-align: center;
+}
+
+.upload-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333; /* Dark grey color for the heading */
+}
+
+.upload-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666; /* Medium grey color for the paragraph */
+}
+
+#upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-upload {
+    margin-bottom: 20px;
+}
+
+
+.results {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.results h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    display: inline-block;
+    color: #fff;
+    line-height: 100px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+/* About Page Specific Styles */
+.about-section, .mission-vision-section, .team-section {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-section h1, .mission-vision-section h2, .team-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-section p, .mission-vision-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+
+
+/* Contact Page Specific Styles */
+.contact-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 93%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+
+.contact-info {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.contact-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.options {
+    max-width: auto;
+    margin: 0 auto;
+    background-color: #fff; /* White background for the intro section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card-like effect */
+}
+
+.options h1 {
+  font-family: Roboto Condensed;
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: hotpink;
+}
+
+.options h3 {
+  font-family: Roboto condensed;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: limegreen;
+}
+
+.options-item {
+    max-width: 90% ;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for the intro section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card-like effect */
+}
+
+
